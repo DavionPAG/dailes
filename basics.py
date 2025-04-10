@@ -1,9 +1,3 @@
-a = 5
-b = 6 
-x = 1 
-y = 2
-
-
 class Dog:
     def __init__(self, name, breed):
         self.name = name
