@@ -1,3 +1,10 @@
+import sys
+
+print(sys.version)
+
+
+# ------------------------
+
 class Dog:
     def __init__(self, name, breed):
         self.name = name
@@ -18,7 +25,7 @@ class Plane:
         self.type = type
 
     def fly(self):
-        return 'Engines Go!'
+        return '| Engines Go!'
     
 g5 = Plane('G5', "Twin Jet")
 print(g5.name, g5.type, g5.fly())
